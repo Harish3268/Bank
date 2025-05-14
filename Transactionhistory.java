@@ -1,4 +1,4 @@
-class TransactionHistory {
+class Transactionhistory {
 
  
  
@@ -8,7 +8,7 @@ class TransactionHistory {
     String status;
     String date;
 
-    public TransactionHistory(String transactionId, String sender, String receiver, String status, String date) {
+    public Transactionhistory(String transactionId, String sender, String receiver, String status, String date) {
         this.transactionId = transactionId;
         this.sender = sender;
         this.receiver = receiver;
@@ -28,8 +28,8 @@ class TransactionHistory {
   
 
     public static void main(String[] args) {
-        TransactionHistory t1 = new TransactionHistory("T001", "xyz", "ram", "Successful", "14-05-2025");
-        TransactionHistory t2 = new TransactionHistory("T002", "Abc", "harish","Failed", "13-025-2025");
+        Transactionhistory t1 = new Transactionhistory("T001", "xyz", "ram", "Successful", "14-05-2025");
+        Transactionhistory t2 = new Transactionhistory("T002", "Abc", "harish","Failed", "13-025-2025");
 
         t1.display();
         t2.display();
